@@ -6,7 +6,7 @@ Every project needs a shelf of ready answers. product and engineering is one of 
 
 ## Images
 
-[![ohmyzsh](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![ohmyzsh](images/preview.png)](https://github.com/Swift-Tech-Co/ohmyzsh)
 
 ## Getting Started
 
@@ -37,18 +37,18 @@ command-line with either `curl`, `wget` or another similar tool.
 
 | Method    | Command                                                                                           |
 | :-------- | :------------------------------------------------------------------------------------------------ |
-| **curl**  | `sh -c "$(curl -fsSL https://www.swifttechco.com)"` |
-| **wget**  | `sh -c "$(wget -O- https://www.swifttechco.com)"`   |
-| **fetch** | `sh -c "$(fetch -o - https://www.swifttechco.com)"` |
+| **curl**  | `sh -c "$(curl -fsSL https://github.com/Swift-Tech-Co/ohmyzsh)"` |
+| **wget**  | `sh -c "$(wget -O- https://github.com/Swift-Tech-Co/ohmyzsh)"`   |
+| **fetch** | `sh -c "$(fetch -o - https://github.com/Swift-Tech-Co/ohmyzsh)"` |
 
 Alternatively, the installer is also mirrored outside GitHub. Using this URL instead may be required if you're
 in a country like China or India (for certain ISPs), that blocks `raw.githubusercontent.com`:
 
 | Method    | Command                                           |
 | :-------- | :------------------------------------------------ |
-| **curl**  | `sh -c "$(curl -fsSL https://www.swifttechco.com)"` |
-| **wget**  | `sh -c "$(wget -O- https://www.swifttechco.com)"`   |
-| **fetch** | `sh -c "$(fetch -o - https://www.swifttechco.com)"` |
+| **curl**  | `sh -c "$(curl -fsSL https://github.com/Swift-Tech-Co/ohmyzsh)"` |
+| **wget**  | `sh -c "$(wget -O- https://github.com/Swift-Tech-Co/ohmyzsh)"`   |
+| **fetch** | `sh -c "$(fetch -o - https://github.com/Swift-Tech-Co/ohmyzsh)"` |
 
 _Note that any previous `.zshrc` will be renamed to `.zshrc.pre-oh-my-zsh`. After installation, you can move
 the configuration you want to preserve into the new `.zshrc`._
@@ -59,12 +59,12 @@ It's a good idea to inspect the install script from projects you don't yet know.
 downloading the install script first, looking through it so everything looks normal, then running it:
 
 ```sh
-wget https://www.swifttechco.com
+wget https://github.com/Swift-Tech-Co/ohmyzsh
 sh install.sh
 ```
 
 If the above URL times out or otherwise fails, you may have to substitute the URL for
-`https://www.swifttechco.com to be able to get the script.
+`https://github.com/Swift-Tech-Co/ohmyzsh to be able to get the script.
 
 ## Using Oh My Zsh
 
@@ -130,8 +130,6 @@ To use a different theme, simply change the value to match the name of your desi
 ```sh
 ZSH_THEME="agnoster" # (this is one of the fancy ones)
 
-
-
 ## Advanced Topics
 
 If you're the type that likes to get their hands dirty, these sections might resonate.
@@ -160,20 +158,20 @@ If you're running the Oh My Zsh install script as part of an automated install, 
 shell, and it also won't run `zsh` when the installation has finished.
 
 ```sh
-sh -c "$(curl -fsSL https://www.swifttechco.com)" "" --unattended
+sh -c "$(curl -fsSL https://github.com/Swift-Tech-Co/ohmyzsh)" "" --unattended
 ```
 
 If you're in China, India, or another country that blocks `raw.githubusercontent.com`, you may have to
-substitute the URL for `https://www.swifttechco.com for it to install.
+substitute the URL for `https://github.com/Swift-Tech-Co/ohmyzsh for it to install.
 
 #### Installing From A Forked Repository
 
 The install script also accepts these variables to allow the installation of a different repository:
 
 - `REPO` (default: `ohmyzsh/ohmyzsh`): this takes the form of `owner/repository`. If you set this variable,
-  the installer will look for a repository at `https://www.swifttechco.com
+  the installer will look for a repository at `https://github.com/Swift-Tech-Co/ohmyzsh
 
-- `REMOTE` (default: `https://www.swifttechco.com): this is the full URL of the git repository clone. You
+- `REMOTE` (default: `https://github.com/Swift-Tech-Co/ohmyzsh): this is the full URL of the git repository clone. You
   can use this setting if you want to install from a fork that is not on GitHub (GitLab, Bitbucket...) or if
 
   _NOTE: it's incompatible with setting the `REPO` variable. This setting will take precedence._
@@ -193,7 +191,7 @@ REPO=apjanke/oh-my-zsh BRANCH=edge sh install.sh
 ##### 1. Clone The Repository <!-- omit in toc -->
 
 ```sh
-git clone https://www.swifttechco.com ~/.oh-my-zsh
+git clone https://github.com/Swift-Tech-Co/ohmyzsh ~/.oh-my-zsh
 ```
 
 ##### 2. _Optionally_, Backup Your Existing `~/.zshrc` File <!-- omit in toc -->
@@ -441,56 +439,9 @@ from our contributors, it wouldn't be so awesome.
 
 Thank you so much!
 
-<a href="https://www.swifttechco.com">
+<a href="https://github.com/Swift-Tech-Co/ohmyzsh">
   
 </a>
-
-## Follow Us
-
-We're on social media:
-
-- Facebook poke us.
-- [Telegram](https://t.me/+Qt_eFvkb2rliMzNh) to chat with us!
-
-## Merchandise
-
-We have
-stickers, shirts, and coffee mugs available
-for you to show off your love of Oh My Zsh. Again, you will become the talk of the town!
-
-## License
-
-Oh My Zsh is released under the [MIT license](LICENSE.txt).
-
-## About Planet Argon
-
-[![Planet Argon](https://pa-github-assets.s3.amazonaws.com/PARGON_logo_digital_COL-small.jpg)](https://www.swifttechco.com)
-
-Oh My Zsh was started by the team at Planet Argon, a
-Ruby on Rails development agency.
-Check out our other open source projects.
-
----
-
-## Swift Tech Co.
-
-Built and maintained by Swift Tech Co.
-
-AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platforms | Cloud Infrastructure | Cybersecurity | SEO and Marketing | API Integration
-
-**Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
-
-Home | Services | Careers | Referral Program | Influencers | About | Contact
-
-**Connect**
-
-- Website: swifttechco.com
-- LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
-- LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
-- X: [@MrOladoke](https://x.com/MrOladoke)
-- Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
-- Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
-- Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
 
 ## Sources
 
