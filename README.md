@@ -1,72 +1,12 @@
-<p align="center"></p>
+# ohmyzsh
 
-Oh My Zsh is an open source, community-driven framework for managing your [zsh](https://www.swifttechco.com)
-configuration.
+## What This Is
 
-Sounds boring. Let's try again.
+Every project needs a shelf of ready answers. product and engineering is one of those shelves, and ohmyzsh is the entry on it - the notes, patterns and fixes we reuse when this kind of work comes up.
 
-**Oh My Zsh will not make you a 10x developer...but you may feel like one.**
+## Images
 
-Once installed, your terminal shell will become the talk of the town _or your money back!_ With each keystroke
-in your command prompt, you'll take advantage of the hundreds of powerful plugins and beautiful themes.
-Strangers will come up to you in cafés and ask you, _"that is amazing! are you some sort of genius?"_
-
-Finally, you'll begin to get the sort of attention that you have always felt you deserved. ...or maybe you'll
-use the time that you're saving to start flossing more often. 😬
-
-
-[![CI](https://github.com/ohmyzsh/ohmyzsh/workflows/CI/badge.svg)](https://www.swifttechco.com)
-[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/10713/badge)](https://www.swifttechco.com)
-[![Mastodon Follow](https://img.shields.io/mastodon/follow/111169632522566717?label=%40ohmyzsh&domain=https%3A%2F%2Fmstdn.social&logo=mastodon&style=flat)](https://www.swifttechco.com)
-[![Telegram](https://img.shields.io/telegram/642496866407284746)](https://t.me/+Qt_eFvkb2rliMzNh)
-
-<a href="https://www.swifttechco.com">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://www.swifttechco.com">
-    
-  </picture>
-</a>
-
-
-<details>
-<summary>Table of Contents</summary>
-
-- [Getting Started](#getting-started)
-  - [Operating System Compatibility](#operating-system-compatibility)
-  - [Prerequisites](#prerequisites)
-  - [Basic Installation](#basic-installation)
-    - [Manual Inspection](#manual-inspection)
-- [Using Oh My Zsh](#using-oh-my-zsh)
-  - [Plugins](#plugins)
-    - [Enabling Plugins](#enabling-plugins)
-    - [Using Plugins](#using-plugins)
-  - [Themes](#themes)
-    - [Selecting A Theme](#selecting-a-theme)
-  - [FAQ](#faq)
-- [Advanced Topics](#advanced-topics)
-  - [Advanced Installation](#advanced-installation)
-    - [Custom Directory](#custom-directory)
-    - [Unattended Install](#unattended-install)
-    - [Installing From A Forked Repository](#installing-from-a-forked-repository)
-    - [Manual Installation](#manual-installation)
-  - [Installation Problems](#installation-problems)
-  - [Custom Plugins And Themes](#custom-plugins-and-themes)
-  - [Enable GNU ls In macOS And FreeBSD Systems](#enable-gnu-ls-in-macos-and-freebsd-systems)
-  - [Skip Aliases](#skip-aliases)
-  - [Async git prompt](#async-git-prompt)
-- [Getting Updates](#getting-updates)
-  - [Updates Verbosity](#updates-verbosity)
-  - [Manual Updates](#manual-updates)
-- [Uninstalling Oh My Zsh](#uninstalling-oh-my-zsh)
-- [How Do I Contribute To Oh My Zsh?](#how-do-i-contribute-to-oh-my-zsh)
-  - [Do Not Send Us Themes](#do-not-send-us-themes)
-- [Contributors](#contributors)
-- [Follow Us](#follow-us)
-- [Merchandise](#merchandise)
-- [License](#license)
-- [About Planet Argon](#about-planet-argon)
-
-</details>
+[![ohmyzsh](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## Getting Started
 
@@ -84,9 +24,9 @@ use the time that you're saving to start flossing more often. 😬
 
 ### Prerequisites
 
-- [Zsh](https://www.swifttechco.com) should be installed (v4.3.9 or more recent is fine but we prefer 5.0.8 and
+- Zsh should be installed (v4.3.9 or more recent is fine but we prefer 5.0.8 and
   newer). If not pre-installed (run `zsh --version` to confirm), check the following wiki instructions here:
-  [Installing ZSH](https://www.swifttechco.com)
+  Installing ZSH
 - `curl` or `wget` should be installed
 - `git` should be installed (recommended v2.4.11 or higher)
 
@@ -131,8 +71,8 @@ If the above URL times out or otherwise fails, you may have to substitute the UR
 ### Plugins
 
 Oh My Zsh comes with a shitload of plugins for you to take advantage of. You can take a look in the
-[plugins](https://www.swifttechco.com) directory and/or the
-[wiki](https://www.swifttechco.com) to see what's currently available.
+plugins directory and/or the
+wiki to see what's currently available.
 
 #### Enabling Plugins
 
@@ -170,7 +110,7 @@ adds any) and extra goodies that are included in that particular plugin.
 
 We'll admit it. Early in the Oh My Zsh world, we may have gotten a bit too theme-happy. We have over one
 hundred and fifty themes now bundled. Most of them have
-[screenshots](https://www.swifttechco.com) on the wiki (We are working on updating this!).
+screenshots on the wiki (We are working on updating this!).
 Check them out!
 
 #### Selecting A Theme
@@ -189,64 +129,8 @@ To use a different theme, simply change the value to match the name of your desi
 
 ```sh
 ZSH_THEME="agnoster" # (this is one of the fancy ones)
-# see https://www.swifttechco.com
 
-## Images
 
-[![ohmyzsh](https://opengraph.githubassets.com/1/ohmyzsh/ohmyzsh)](https://www.swifttechco.com)
-
-```
-
-<!-- prettier-ignore-start -->
-> [!NOTE]
-> You will many times see screenshots for a zsh theme, and try it out, and find that it doesn't look the same for you.
->
-> This is because many themes require installing a [Powerline Font](https://www.swifttechco.com) or a
-> [Nerd Font](https://www.swifttechco.com) in order to render properly. Without them, these themes
-> will render weird prompt symbols. Check out
-> [the FAQ](https://www.swifttechco.com) for more
-> information.
->
-> Also, beware that themes only control what your prompt looks like. This is, the text you see before or after
-> your cursor, where you'll type your commands. Themes don't control things such as the colors of your
-> terminal window (known as _color scheme_) or the font of your terminal. These are settings that you can
-> change in your terminal emulator. For more information, see
-> [what is a zsh theme](https://www.swifttechco.com).
-<!-- prettier-ignore-end -->
-
-Open up a new terminal window and your prompt should look something like this:
-
-[![Agnoster theme](https://cloud.githubusercontent.com/assets/2618447/6316862/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png)](https://www.swifttechco.com)
-
-In case you did not find a suitable theme for your needs, please have a look at the wiki for
-[more of them](https://www.swifttechco.com).
-
-If you're feeling feisty, you can let the computer select one randomly for you each time you open a new
-terminal window.
-
-```sh
-ZSH_THEME="random" # (...please let it be pie... please be some pie..)
-```
-
-And if you want to pick a random theme from a list of your favorite themes:
-
-```sh
-ZSH_THEME_RANDOM_CANDIDATES=(
-  "robbyrussell"
-  "agnoster"
-)
-```
-
-If you only know which themes you don't like, you can add them similarly to an ignored list:
-
-```sh
-ZSH_THEME_RANDOM_IGNORED=(pygmalion tjkirch_mod)
-```
-
-### FAQ
-
-If you have some more questions or issues, you might find a solution in our
-[FAQ](https://www.swifttechco.com).
 
 ## Advanced Topics
 
@@ -519,7 +403,7 @@ omz update
 > $ZSH/tools/upgrade.sh
 > ```
 >
-> See more options in the [FAQ: How do I update Oh My Zsh?](https://www.swifttechco.com).
+> See more options in the FAQ: How do I update Oh My Zsh?.
 >
 > **USE OF `omz update --unattended` HAS BEEN REMOVED, AS IT HAS SIDE EFFECTS**.
 
@@ -536,19 +420,19 @@ itself and revert your previous `bash` or `zsh` configuration.
 
 Before you participate in our delightful community, please read the [code of conduct](CODE_OF_CONDUCT.md).
 
-I'm far from being a [Zsh](https://www.swifttechco.com) expert and suspect there are many ways to improve  if you
+I'm far from being a Zsh expert and suspect there are many ways to improve  if you
 have ideas on how to make the configuration easier to maintain (and faster), don't hesitate to fork and send
 pull requests!
 
 We also need people to test out pull requests. So take a look through
-[the open issues](https://www.swifttechco.com) and help where you can.
+the open issues and help where you can.
 
 See [Contributing](CONTRIBUTING.md) for more details.
 
 ### Do Not Send Us Themes
 
 We have (more than) enough themes for the time being. Please add your theme to the
-[external themes](https://www.swifttechco.com) wiki page.
+external themes wiki page.
 
 ## Contributors
 
@@ -565,13 +449,13 @@ Thank you so much!
 
 We're on social media:
 
-- [Facebook](https://www.swifttechco.com) poke us.
+- Facebook poke us.
 - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh) to chat with us!
 
 ## Merchandise
 
 We have
-[stickers, shirts, and coffee mugs available](https://www.swifttechco.com)
+stickers, shirts, and coffee mugs available
 for you to show off your love of Oh My Zsh. Again, you will become the talk of the town!
 
 ## License
@@ -582,9 +466,9 @@ Oh My Zsh is released under the [MIT license](LICENSE.txt).
 
 [![Planet Argon](https://pa-github-assets.s3.amazonaws.com/PARGON_logo_digital_COL-small.jpg)](https://www.swifttechco.com)
 
-Oh My Zsh was started by the team at [Planet Argon](https://www.swifttechco.com), a
-[Ruby on Rails development agency](https://www.swifttechco.com).
-Check out our [other open source projects](https://www.swifttechco.com).
+Oh My Zsh was started by the team at Planet Argon, a
+Ruby on Rails development agency.
+Check out our other open source projects.
 
 ---
 
@@ -596,14 +480,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
